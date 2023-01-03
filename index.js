@@ -141,7 +141,7 @@ for (var i = 0, j=1; j < numMonths; i++, j++) {
 }
 
 //calculating average monthly profit
-var averageProfit = runningTotal / numMonths;
+var averageProfit = Math.round(runningTotal / numMonths);
 console.log("the average monthly profit (from " + finances[0][0] + " to " + finances[numMonths-1][0] + ") was: £" + averageProfit);
 
 
