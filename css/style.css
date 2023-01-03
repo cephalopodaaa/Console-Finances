@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: #f9f7f7;
+    background-image: linear-gradient(#ffd5d5, #d4ffd4, #d4ffd4, #ffd5d5);
+    background-size: 400% 400%;
+    animation: psychedelic 10s ease infinite;
+  }
+  
+  @keyframes psychedelic {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  h1, h2, h3 {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00, 0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
